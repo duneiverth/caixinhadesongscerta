@@ -1,1 +1,1 @@
-alert("Mensagem");
+alert("Tuts Tuts");
