@@ -9,4 +9,9 @@ document.querySelector('.tecla_pom').onclick = tocaSomPom;
 const listaDeTeclas = document.querySelector('.tecla');
 
 //chamando a tecla tocasompom pelo item "0" da listadetecla
-listaDeTeclas[0].onclick = tocaSomPom  ;  
+listaDeTeclas[0].onclick = tocaSomPom;
+
+let contador = 0;
+while(){
+
+}
