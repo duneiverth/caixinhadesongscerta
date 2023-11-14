@@ -6,7 +6,7 @@ function tocaSom(idElementoAudio){
 document.querySelector('.tecla_pom').onclick = tocaSom;
 
 //referencia constante listaDeTeclas, buscando todos os botoes
-const listaDeTeclas = document.querySelector('.tecla');
+const listaDeTeclas = document.querySelectorAll('.tecla');
 
 //chamando a tecla tocaSomPom pelo item "0" da listadetecla
 listaDeTeclas[0].onclick = tocaSom;
